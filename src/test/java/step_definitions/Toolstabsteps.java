@@ -48,11 +48,11 @@ import pages.Toolstabpage;
 		
 		Assert.assertTrue(Toolspage.Volpriceconverter.isDisplayed());
 		Toolspage.Volpriceconverter.click();
-		//String currenturl=driver.getCurrentUrl();
+		String currenturl=driver.getCurrentUrl();
 		//if(currenturl.equals("http://ec2-3-145-116-184.us-east-2.compute.amazonaws.com:8080")) {
 		//	driver.switchTo().window(VolETFETNpriceconverter);
 		//else {
-			//System.out.println("I'm still on the Trader app home page");
+			System.out.println("I'm still on the Trader app home page"+ currenturl);
 		//}
 	}
 
