@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4224619800,
+              "duration": 3366900300,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 186991500,
+              "duration": 105373200,
               "status": "passed"
             },
             "line": 5,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 773646200,
+              "duration": 1071819300,
               "status": "passed"
             },
             "line": 6,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 70843400,
+              "duration": 35267100,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-17T15:30:15.975Z",
+        "start_timestamp": "2022-02-18T16:59:57.982Z",
         "line": 10,
         "name": "As a user after I login to Stock Trading application succesfully",
         "description": "    I should be able to see following lists from dropdown",
@@ -80,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 153064800,
+              "duration": 72297500,
               "status": "passed"
             },
             "line": 13,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 3024800,
+              "duration": 1994200,
               "status": "passed"
             },
             "line": 14,
@@ -127,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 106045500,
+              "duration": 52800700,
               "status": "passed"
             },
             "line": 18,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 1106400,
+              "duration": 997800,
               "status": "passed"
             },
             "line": 19,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 118418000,
+              "duration": 53731500,
               "status": "passed"
             },
             "line": 20,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 101870400,
+              "duration": 51274400,
               "status": "passed"
             },
             "line": 22,
@@ -217,7 +217,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.Toolstabsteps.i_should_be_directed_to_new_page_of(Toolstabsteps.java:49)\r\n\tat ✽.I should be directed to new page of \"Vol ETF/ETN Price Converter\"(file:///C:/Users/ohnor/.eclipse/TradeJournalFramework/./src/test/resources/Features/Toolstab.feature:23)\r\n",
-              "duration": 61035200,
+              "duration": 26834800,
               "status": "failed"
             },
             "line": 23,
@@ -237,6 +237,9 @@
         "tags": [
           {
             "name": "@TradeAppToolstab"
+          },
+          {
+            "name": "@Smoketests"
           }
         ]
       }

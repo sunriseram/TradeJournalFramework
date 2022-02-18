@@ -5,7 +5,7 @@ Background:
    When I enter username "Rani" password "SuperRani123!"
    And  I click on Trade login button
    Then I should be on Trade homepage 
-@FinomGrouptab
+@FinomGrouptab @SmokeTests
 Scenario: As a user after I login to Stock Trading application successfully.
     I should see the Finom Group headers in home page.       
    
