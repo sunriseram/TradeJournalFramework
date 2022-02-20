@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/Features",
 		glue="step_definitions",
 		dryRun=false,
-		tags="@TradeAppToolstab"
+		tags="@TradeJournalGlobalHeader"
 		)
 public class TestRunner {
 
