@@ -1,3 +1,4 @@
+
 Feature: Using Stock Trade Tracking application.
 
  Background: 
