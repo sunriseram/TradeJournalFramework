@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7101256200,
+              "duration": 4650906300,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 141197800,
+              "duration": 263657200,
               "status": "passed"
             },
             "line": 6,
@@ -45,25 +45,19 @@
           },
           {
             "result": {
-              "duration": 1048504000,
+              "duration": 992398200,
               "status": "passed"
             },
             "line": 7,
-            "name": "I click on \"Trade login button\"",
+            "name": "I click on Trade login button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Trade login button\"",
-                  "offset": 11
-                }
-              ],
-              "location": "step_definitions.TradeJournalGlobalHeadersteps.i_click_on(java.lang.String)"
+              "location": "step_definitions.FinomGroupsteps.i_click_on_trade_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 37547600,
+              "duration": 82335200,
               "status": "passed"
             },
             "line": 8,
@@ -76,117 +70,168 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-19T21:35:57.579Z",
+        "start_timestamp": "2022-02-28T04:40:51.228Z",
         "line": 11,
         "name": "As a user after I login to Stock Trading application succesfully",
-        "description": "",
+        "description": "    I should be able to see following lists from dropdown",
         "id": "using-stock-trade-tracking-application.;as-a-user-after-i-login-to-stock-trading-application-succesfully",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 22394100,
+              "duration": 151693200,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I should see the following Global headers in home page.",
+            "line": 14,
+            "name": "I click \"Tools dropdown tab\"",
             "match": {
-              "location": "step_definitions.TradeJournalGlobalHeadersteps.i_should_see_the_following_global_headers_in_home_page(io.cucumber.datatable.DataTable)"
+              "arguments": [
+                {
+                  "val": "\"Tools dropdown tab\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see following lists from dropdown",
+            "match": {
+              "location": "step_definitions.Toolstabsteps.i_should_see_following_lists_from_dropdown(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
                 "cells": [
-                  "application logo"
+                  "Options Calculator"
                 ]
               },
               {
                 "cells": [
-                  "Home"
+                  "Todays Market Info"
                 ]
               },
               {
                 "cells": [
-                  "Finom Group"
-                ]
-              },
-              {
-                "cells": [
-                  "Slack Channel"
-                ]
-              },
-              {
-                "cells": [
-                  "Tools"
-                ]
-              },
-              {
-                "cells": [
-                  "Symbol"
-                ]
-              },
-              {
-                "cells": [
-                  "mm/dd/yyyy"
-                ]
-              },
-              {
-                "cells": [
-                  "Search"
-                ]
-              },
-              {
-                "cells": [
-                  "Logout"
-                ]
-              },
-              {
-                "cells": [
-                  "Add trade"
-                ]
-              },
-              {
-                "cells": [
-                  "Action"
-                ]
-              },
-              {
-                "cells": [
-                  "Symbol"
-                ]
-              },
-              {
-                "cells": [
-                  "Open date"
-                ]
-              },
-              {
-                "cells": [
-                  "Entry"
-                ]
-              },
-              {
-                "cells": [
-                  "Close date"
-                ]
-              },
-              {
-                "cells": [
-                  "Exit"
-                ]
-              },
-              {
-                "cells": [
-                  "Gain/Loss"
-                ]
-              },
-              {
-                "cells": [
-                  "Action"
+                  "Vol ETF/ETN Price Converter"
                 ]
               }
             ],
-            "keyword": "And "
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106710300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click \"Options Calculator tab\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Options Calculator tab\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1967500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be directed to Options calculator home page \"https://www.optionseducation.org/toolsoptionquotes/optionscalculator\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.optionseducation.org/toolsoptionquotes/optionscalculator\"",
+                  "offset": 53
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_should_be_directed_to_options_calculator_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101690800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click \"Todays Market Info tab\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Todays Market Info tab\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should be directed to Todays Market Info home page \"https://finviz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://finviz.com\"",
+                  "offset": 53
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_should_be_directed_to_todays_market_info_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87068100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click \"Vol ETF/ETN Price Converter tab\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vol ETF/ETN Price Converter tab\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_click(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.Toolstabsteps.i_should_be_directed_to_new_page_of(Toolstabsteps.java:49)\r\n\tat ✽.I should be directed to new page of \"Vol ETF/ETN Price Converter\"(file:///C:/Users/ohnor/.eclipse/TradeJournalFramework/./src/test/resources/Features/Toolstab.feature:24)\r\n",
+              "duration": 59875300,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "I should be directed to new page of \"Vol ETF/ETN Price Converter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vol ETF/ETN Price Converter\"",
+                  "offset": 36
+                }
+              ],
+              "location": "step_definitions.Toolstabsteps.i_should_be_directed_to_new_page_of(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -194,7 +239,7 @@
             "name": "@Regression"
           },
           {
-            "name": "@TradeJournalGlobalHeader"
+            "name": "@TradeAppToolstab"
           },
           {
             "name": "@SmokeTests"
@@ -206,7 +251,7 @@
     "description": "",
     "id": "using-stock-trade-tracking-application.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/TradeJournalGlobalHeader.feature",
+    "uri": "file:src/test/resources/Features/Toolstab.feature",
     "tags": [
       {
         "name": "@Regression",
