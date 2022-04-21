@@ -5,6 +5,7 @@ import org.junit.Assert;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.FinomGrouppage;
+import utilities.Driver;
 
 public class FinomGroupsteps {
 	FinomGrouppage Fpage = new FinomGrouppage();
@@ -22,7 +23,7 @@ public class FinomGroupsteps {
 	@Then("I should be directed to Finom Group homepage {string}")
 	public void i_should_be_directed_to_finom_group_homepage(String FinomGroupurl) {
 		 Assert.assertEquals(FinomGroupurl, "https://www.finomgroup.com");
-		 System.out.println(FinomGroupurl);
+		 System.out.println(Driver.getDriver().getCurrentUrl());
 	}
 
 }

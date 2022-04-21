@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4224619800,
+              "duration": 4650906300,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am on the Trade App log in page",
             "match": {
               "location": "step_definitions.TradeJournalGlobalHeadersteps.i_am_on_the_trade_app_log_in_page()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 186991500,
+              "duration": 263657200,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I enter username \"Rani\" password \"SuperRani123!\"",
             "match": {
               "arguments": [
@@ -45,10 +45,10 @@
           },
           {
             "result": {
-              "duration": 773646200,
+              "duration": 992398200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click on Trade login button",
             "match": {
               "location": "step_definitions.FinomGroupsteps.i_click_on_trade_login_button()"
@@ -57,10 +57,10 @@
           },
           {
             "result": {
-              "duration": 70843400,
+              "duration": 82335200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I should be on Trade homepage",
             "match": {
               "location": "step_definitions.TradeJournalGlobalHeadersteps.i_should_be_on_trade_homepage()"
@@ -70,8 +70,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-17T15:30:15.975Z",
-        "line": 10,
+        "start_timestamp": "2022-02-28T04:40:51.228Z",
+        "line": 11,
         "name": "As a user after I login to Stock Trading application succesfully",
         "description": "    I should be able to see following lists from dropdown",
         "id": "using-stock-trade-tracking-application.;as-a-user-after-i-login-to-stock-trading-application-succesfully",
@@ -80,10 +80,10 @@
         "steps": [
           {
             "result": {
-              "duration": 153064800,
+              "duration": 151693200,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "I click \"Tools dropdown tab\"",
             "match": {
               "arguments": [
@@ -98,10 +98,10 @@
           },
           {
             "result": {
-              "duration": 3024800,
+              "duration": 1996400,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I should see following lists from dropdown",
             "match": {
               "location": "step_definitions.Toolstabsteps.i_should_see_following_lists_from_dropdown(io.cucumber.datatable.DataTable)"
@@ -127,10 +127,10 @@
           },
           {
             "result": {
-              "duration": 106045500,
+              "duration": 106710300,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "I click \"Options Calculator tab\"",
             "match": {
               "arguments": [
@@ -145,10 +145,10 @@
           },
           {
             "result": {
-              "duration": 1106400,
+              "duration": 1967500,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "I should be directed to Options calculator home page \"https://www.optionseducation.org/toolsoptionquotes/optionscalculator\"",
             "match": {
               "arguments": [
@@ -163,10 +163,10 @@
           },
           {
             "result": {
-              "duration": 118418000,
+              "duration": 101690800,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "I click \"Todays Market Info tab\"",
             "match": {
               "arguments": [
@@ -183,7 +183,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "I should be directed to Todays Market Info home page \"https://finviz.com\"",
             "match": {
               "arguments": [
@@ -198,10 +198,10 @@
           },
           {
             "result": {
-              "duration": 101870400,
+              "duration": 87068100,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "I click \"Vol ETF/ETN Price Converter tab\"",
             "match": {
               "arguments": [
@@ -216,11 +216,11 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.Toolstabsteps.i_should_be_directed_to_new_page_of(Toolstabsteps.java:49)\r\n\tat ✽.I should be directed to new page of \"Vol ETF/ETN Price Converter\"(file:///C:/Users/ohnor/.eclipse/TradeJournalFramework/./src/test/resources/Features/Toolstab.feature:23)\r\n",
-              "duration": 61035200,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat step_definitions.Toolstabsteps.i_should_be_directed_to_new_page_of(Toolstabsteps.java:49)\r\n\tat ✽.I should be directed to new page of \"Vol ETF/ETN Price Converter\"(file:///C:/Users/ohnor/.eclipse/TradeJournalFramework/./src/test/resources/Features/Toolstab.feature:24)\r\n",
+              "duration": 59875300,
               "status": "failed"
             },
-            "line": 23,
+            "line": 24,
             "name": "I should be directed to new page of \"Vol ETF/ETN Price Converter\"",
             "match": {
               "arguments": [
@@ -236,7 +236,13 @@
         ],
         "tags": [
           {
+            "name": "@Regression"
+          },
+          {
             "name": "@TradeAppToolstab"
+          },
+          {
+            "name": "@SmokeTests"
           }
         ]
       }
@@ -246,6 +252,15 @@
     "id": "using-stock-trade-tracking-application.",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Features/Toolstab.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

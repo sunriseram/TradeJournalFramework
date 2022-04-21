@@ -24,14 +24,12 @@ public class SlackChannelpage {
 		@FindBy(linkText = "Slack Channel")
 		public WebElement slacktab;
 
-		@FindBy(xpath="//img[contains(@src,'.svg')]")
-		public WebElement SlackHome ;
-
+		@FindBy WebElement Slack;
+		
 		@FindBy(xpath = "//input[@id='email']")
 		public WebElement slacksignin;
 
-		@FindBy(xpath = "//p[contains(text(),'PrimeTech_2021_Summer_SDET_Bootcamp')]")
-		public WebElement defaultslack;
+		
 	}
 
 

@@ -1,3 +1,4 @@
+@Regression
 Feature: Using Stock Trade Tracking application.
 
   Background: 
@@ -6,7 +7,7 @@ Feature: Using Stock Trade Tracking application.
     And I click on "Trade login button"
     Then I should be on Trade homepage
 
-  @TradeJournalGlobalHeader @SmokeTest
+  @TradeJournalGlobalHeader @SmokeTests
   Scenario: As a user after I login to Stock Trading application succesfully
     And I should see the following Global headers in home page.
       | application logo |
